@@ -7,7 +7,7 @@
   --font-semi: 600;
   /*===== Colores =====*/
   --first-color: #390075;
-  --body-bg: #ffffff;
+  --body-bg: #030305;
   /*===== Fuente y tipografia =====*/
   --body-font: "Raleway", sans-serif;
   --big-font-size: 2rem;
@@ -83,13 +83,13 @@ img {
 }
 
 ::selection {
-  background-color: var(--first-color);
-  color: var(--second-color);
+  background-color: #fff;
+  color: #390075 !important;
 }
 /*===== CLASS CSS ===== */
 a.bbtn {
   padding: 15px 30px;
-  background: #390075;
+  background: #fff;
   /* Drop Shadow */
   box-shadow: 0px 4px 8px rgba(9, 50, 67, 0.16);
   border-radius: 4px;
@@ -98,7 +98,7 @@ a.bbtn {
   font-weight: 700;
   font-size: 16px;
   line-height: 140%;
-  color: #ffffff;
+  color: #030305;
 }
 
 header {
@@ -118,7 +118,7 @@ header {
       line-height: 28px;
       text-align: center;
 
-      color: #390075;
+      color: #ffffff;
     }
 
     @media (max-width: 700px) {
@@ -135,12 +135,12 @@ header {
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #390075;
+        color: #fff;
       }
     }
     a.bbtn {
       padding: 15px 30px;
-      background: #390075;
+      background: #fff;
       box-shadow: 0px 4px 8px rgba(9, 50, 67, 0.16);
       border-radius: 4px;
       font-family: "Raleway", sans-serif;
@@ -148,7 +148,6 @@ header {
       font-weight: 700;
       font-size: 16px;
       line-height: 140%;
-      color: #ffffff;
     }
   }
 }
@@ -162,7 +161,7 @@ header {
     background: url(../images/backgounds/Isolation_Mode.png) center center
       no-repeat;
     background-size: cover;
-    background-color: #390075;
+    background-color: #0a0b14;
     border-radius: 12px;
     padding-block: 50px;
 
@@ -201,7 +200,6 @@ header {
         border-radius: 0;
         &:first-child {
           background-color: #fff;
-          color: var(--first-color);
         }
         &:last-child {
           background-color: transparent;
@@ -215,6 +213,7 @@ header {
 main {
   width: 100%;
   overflow-x: hidden;
+  background-color: #030305;
 
   #tokenomics {
     width: 100%;
@@ -227,8 +226,7 @@ main {
       font-size: 52px;
       line-height: 52px;
       text-align: center;
-      color: #390075;
-
+      color: #ffffff;
       @media (max-width: 700px) {
         font-size: 48px;
         line-height: 120%;
@@ -239,7 +237,6 @@ main {
       div {
         // background: #460b85;
         border-radius: 8px;
-        color: var(--first-color);
         cursor: pointer;
         // transition: background-color 0.3s linear;
         padding-block: 15px;
@@ -260,7 +257,7 @@ main {
         }
       }
       div.active-tok {
-        background: #460b85;
+        background: #0a0b14;
         color: #fff !important;
       }
     }
@@ -274,7 +271,7 @@ main {
       background: url(../images/backgounds/Isolation_Mode.png) center center
         no-repeat;
       background-size: cover;
-      background-color: #390075;
+      background-color: #0a0b14;
       border-radius: 12px;
       padding-block: 50px;
       color: #fff;
@@ -336,6 +333,6 @@ footer {
 
     text-align: center;
 
-    color: #390075;
+    color: #fff;
   }
 }
